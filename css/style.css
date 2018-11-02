@@ -1,0 +1,76 @@
+ @import "hell.css" all;
+body{
+   background-color:#212F3C;
+}
+#menu ul {    margin-left: -50px;}
+#menu li{
+	display:inline;
+	padding:0px;
+	width: 0px;
+	float:left;
+	min-width: 25%;
+	height: 50px;
+	color:#000;
+}
+a {
+    text-decoration:none;
+    font-family: 'Press Start 2P', cursive;
+}
+p {
+	margin: 5%;
+}
+
+.center{
+    font-family:'Stalinist One', cursive;
+    font-size: 50%;
+}
+#mysite{
+	width:900px;
+	font-family:'Comfortaa'cursive;}
+#shapka{
+	width:850px;height:290px;
+	background-color:#00ffff;
+	font-family:'Oswald'cursive;}
+#menu{
+	width:850px;height:100px;
+	font-family:'Stalinist One' cursive;
+	margin-right:0px;
+	background-color:maroon;}
+#content{
+	width:850px;height:auto;
+	background-color:#990000;
+	text-align:justify; 
+	padding-top: 540px;
+    float:none;
+    text-shadow: 1px 2px 1px #660033;
+    color:#ff6600;
+    text-align:justify;
+    text-indent:1.5em;
+    text-align:left;
+    padding-bottom:300px;
+}
+#content img{
+	padding-top:15px;
+	padding:10px;
+	border-style:dashed;
+	color: pink;
+	
+}
+#footer{width:850px;height:90px;
+	background-color:maroon;
+	
+}
+#toTop {
+width:100px;
+border:1px solid #ccc;
+background:pink;
+text-align:center;
+padding:5px;
+position:fixed;
+bottom:10px; /* отступ кнопки от нижнего края страницы*/
+right:10px;
+color:teal;
+font-family:'Press Start 2P', cursive;
+font-size:20px;
+  
+}

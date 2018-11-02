@@ -1,0 +1,22 @@
+#shapka{
+	background-image: url(http://funkyimg.com/i/2MGZH.png);
+	background-repeat:no-repeat;
+	background-size:100% auto; 
+}
+#menu{
+	background-image: url(http://funkyimg.com/i/2MEL4.png);
+
+}
+#content{
+	background-image: url(http://funkyimg.com/i/2MGC7.jpg);
+	background-repeat: no-repeat;
+	background-position:top;
+	background-size: 70% auto;
+}
+#footer{
+	background-image: url(http://funkyimg.com/i/2MGJG.png);
+}	
+body{
+	background-image: url(http://funkyimg.com/i/2MGAQ.jpg);
+}
+#content img {float:left; width: 250px;}
