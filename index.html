@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="css\style.css">
          <link rel="stylesheet" href="css\slider.css" />
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
- 
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script type="text/javascript">
  
  var angle = 0;
@@ -15,7 +15,33 @@ spinner = document.querySelector("#spinner");
 if (!sign) { angle = angle + 45; } else { angle = angle - 45; }
 spinner.setAttribute("style","-webkit-transform: rotateY("+ angle +"deg); -moz-transform: rotateY("+ angle +"deg); transform: rotateY("+ angle +"deg);");
 }
+
  
+$(function() {
+ 
+$(window).scroll(function() {
+ 
+if($(this).scrollTop() != 0) {
+ 
+$('#toTop').fadeIn();
+ 
+} else {
+ 
+$('#toTop').fadeOut();
+ 
+}
+ 
+});
+ 
+$('#toTop').click(function() {
+ 
+$('body,html').animate({scrollTop:0},800);
+ 
+});
+ 
+});
+ 
+
 </script>
     </head>
     <body>
